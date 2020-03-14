@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlaystationStoreCrawler", "PlaystationStoreCrawler\PlaystationStoreCrawler.csproj", "{7EED13E5-56EF-4D05-A48C-B6D65F4FE5F8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{29BA3D24-97AE-4E9E-B817-C745C3CF812C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlaystationStoreCrawler.Core", "PlaystationStoreCrawler.Core\PlaystationStoreCrawler.Core.csproj", "{054F6387-21D4-4065-B0EE-7BF2CB0BA492}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7EED13E5-56EF-4D05-A48C-B6D65F4FE5F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EED13E5-56EF-4D05-A48C-B6D65F4FE5F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EED13E5-56EF-4D05-A48C-B6D65F4FE5F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EED13E5-56EF-4D05-A48C-B6D65F4FE5F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{054F6387-21D4-4065-B0EE-7BF2CB0BA492}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{054F6387-21D4-4065-B0EE-7BF2CB0BA492}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{054F6387-21D4-4065-B0EE-7BF2CB0BA492}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{054F6387-21D4-4065-B0EE-7BF2CB0BA492}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{054F6387-21D4-4065-B0EE-7BF2CB0BA492} = {29BA3D24-97AE-4E9E-B817-C745C3CF812C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E0F8120B-3E74-4600-91A3-0CDB5CDFE60F}
+	EndGlobalSection
+EndGlobal
